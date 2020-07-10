@@ -6,7 +6,7 @@ $( document ).ready(function() {
     wave.css('width', w);
     wave.css('height', h);
 
-    wave.delay(500).animate({left: w+300+'px'}, 'slow', function() {
+    wave.delay(2000).animate({left: w+300+'px'}, 'slow', function() {
         wave.hide();
     });
 
