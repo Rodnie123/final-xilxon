@@ -1,0 +1,118 @@
+.pincode-input-container {
+    display:inline-block;
+}
+.pincode-input-container input {
+    border-radius: 0;
+    height: 46px;
+    width: 46px;
+    line-height: 44px;
+    text-align: center;
+    border: 1px solid #bababa;
+    border-left-width: 0;
+    outline-color: #27bd4d;
+    z-index: 1;
+}
+
+.pincode-input-container input.first {
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    border-left-width: 1px;
+}
+.pincode-input-container input.last {
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    border-left-width:0px;
+}
+.pincode-input-container input.mid {
+    border-radius:0px;
+    border-left-width:0px;
+}
+.pincode-input-text, .form-control.pincode-input-text {
+    float:left;
+}
+.pincode-input-error{
+    clear:both;
+}
+
+.pincode-input-container.touch .touchwrapper{
+    position:relative;
+    height:34px;
+    margin-right:5px;
+    overflow:hidden;
+}
+.pincode-input-container.touch .touchwrapper .pincode-input-text{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    width: 100%;
+    display: block;
+    background-color:transparent;
+    background:transparent;
+    letter-spacing:20px;
+}
+/*
+	On every digit we use the letter-spacing of the above textbox to determine the table background
+*/
+.pincode-input-container.touch .touchwrapper.touch1{width:40px;}
+.pincode-input-container.touch .touchwrapper.touch2{width:65px;}
+.pincode-input-container.touch .touchwrapper.touch3{width:90px;}
+.pincode-input-container.touch .touchwrapper.touch4{width:120px;}
+.pincode-input-container.touch .touchwrapper.touch5{width:150px;}
+.pincode-input-container.touch .touchwrapper.touch6{width:175px;}
+
+
+.pincode-input-container.touch .touchwrapper .touchtable{
+    width: 100%;
+    height: 100%;
+    table-layout:fixed;
+}
+.pincode-input-container.touch .touchwrapper .touchtable td{
+    border-right:1px solid #ccc;
+}
+.pincode-input-container.touch .touchwrapper .touchtable td.last{
+    border-right:0;
+}
+
+.pin-register{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.pin-register-1{
+    display: inline-block;
+    vertical-align: top;
+    height: 75px;
+    line-height: 75px;
+    background: #ba1ecc;
+    color: #fff;
+    font-size: 25px;
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.pin-register-2{
+    display: inline-block;
+    vertical-align: top;
+    height: 75px;
+    margin-left: -4px;
+    background: #f1f1f1;
+    padding: 15px 20px 15px 20px;
+
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pin-register-2{}
+
+
+
