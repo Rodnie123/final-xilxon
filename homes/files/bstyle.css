@@ -81,7 +81,7 @@
 #wave{
     display: block;
     position: fixed;
-    background: #fff url("about-bg2.png") 50% 150px no-repeat;
+    background: #fff url("ban.gif") 50% 150px no-repeat;
     content: '';
     top: -100px;
     left: 0;
