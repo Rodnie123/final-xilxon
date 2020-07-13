@@ -67,57 +67,11 @@ dialog{
   max-width: 500px;
 }
 </style>
-
-<div class="top-info-bar d-flex flex-column flex-lg-row justify-content-center align-items-center">
-    
-    Отправьте обзор нашей платформы и получите награду! <a href="http://cryptoprizm.pro/" class="info-bar-btn"><i class="fas fa-gift"></i>  Отправить Ваш обзор</a>
-	
-<div class="my-2 my-lg-0">
- 
-  
-  <button class="open"><i class="fas fa-phone"></i>Обратный звонок</button>
-</div>
-
-
-
-</div>
-
-
-
-<dialog>
-  <p>
-    
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil dolore similique quis qui ad blanditiis ex eum! Enim maiores ipsam fugiat officiis earum distinctio natus reprehenderit aliquam est iusto!
-  </p>
-    
-  
-  <label for="toggle">close overlay</label>
-</dialog>
-
-
-
-
-
-<div id="wave" style="width: 100%; height: 1117px;  ">
-    <div class="gradient"></div>
-</div>
-<!-- 
-<canvas id="background"></canvas>
-
-    <div class="sidebar">
-            </div> -->
-<div class="burger-menu position-absolute right-0 d-lg-none" style="right: 30px;z-index: 90" onclick="showMenu()">
-            <div class="span"></div>
-            <div class="span"></div>
-            <div class="span"></div>
-          </div>
-
-          
-<div class="mobile-menu d-none"> 
+<div class="mobile-menu  d-none"> 
 
 <div class="text-right" style="position: relative;z-index: 999"><button class="close-mobile" onclick="showMenu()"> x</button> </div>
 
-<div id="main-menu"  style="position: sticky;top: 0 ;padding: 0 20px 0 20px">
+<div id="main-menu w-100"  style="position: sticky;top: 0 ;padding: 0 20px 0 20px">
                 <div class="menu-top"><img src="./files/icon-7.png" alt="">  Меню</div>
                 <a href="index.html" class="menu-row">
                     <span class="line"></span>
@@ -151,7 +105,7 @@ dialog{
 
 
                                 <div class="side-content">
-                    <div class="chart">
+                    <div class="chart w-100">
                       <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" style="width: 100%; height: 100%;">
   <iframe scrolling="no" allowtransparency="true" frameborder="0" src="./files/saved_resource.html" style="box-sizing: border-box; height: 100%; width: 100%;"></iframe>
@@ -161,7 +115,7 @@ dialog{
 <!-- TradingView Widget END -->
 </div>
 
-<div class="chart">
+<div class="chart w-100">
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" style="width: 100%; height: 100%;">
   <iframe scrolling="no" allowtransparency="true" frameborder="0" src="./files/saved_resource(1).html" style="box-sizing: border-box; height: 100%; width: 100%;"></iframe>
@@ -181,6 +135,53 @@ dialog{
             </div>
 
  </div>
+<div class="top-info-bar d-flex flex-column flex-lg-row justify-content-center align-items-center">
+    
+    Отправьте обзор нашей платформы и получите награду! <a href="http://cryptoprizm.pro/" class="info-bar-btn"><i class="fas fa-gift"></i>  Отправить Ваш обзор</a>
+	
+<div class="my-2 my-lg-0">
+ 
+  
+  <button class="open"><i class="fas fa-phone"></i>Обратный звонок</button>
+</div>
+
+
+
+</div>
+
+
+<div class="burger-menu position-absolute d-block d-lg-none right-0 " style="right: 30px;z-index: 90" onclick="showMenu()">
+            <div class="span"></div>
+            <div class="span"></div>
+            <div class="span"></div>
+          </div>
+
+<dialog>
+  <p>
+    
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil dolore similique quis qui ad blanditiis ex eum! Enim maiores ipsam fugiat officiis earum distinctio natus reprehenderit aliquam est iusto!
+  </p>
+    
+  
+  <label for="toggle">close overlay</label>
+</dialog>
+
+
+
+
+
+<div id="wave" style="width: 100%; height: 1117px;  ">
+    <div class="gradient"></div>
+</div>
+<!-- 
+<canvas id="background"></canvas>
+
+    <div class="sidebar">
+            </div> -->
+
+
+          
+
 
  </div>
 <div id="bg-fix">
@@ -496,7 +497,7 @@ $(document).ready(function()
 
 
                                 <div class="side-content">
-                    <div class="chart">
+                    <div class="chart ">
                       <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container" style="width: 100%; height: 100%;">
   <iframe scrolling="no" allowtransparency="true" frameborder="0" src="./files/saved_resource.html" style="box-sizing: border-box; height: 100%; width: 100%;"></iframe>
@@ -893,6 +894,12 @@ $(document).ready(function()
     </script>
 
 
+<script type="text/javascript">
+  function  showMenu() {
+    $('.mobile-menu').toggleClass('d-none');
+    console.log('fdfdfd');
+  }
+</script>
 
 
 <!-- 
