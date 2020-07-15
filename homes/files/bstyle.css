@@ -2370,17 +2370,7 @@ img.brain2a {
     margin-top: 25px;
 }
 
-.contacts-l{
-    display: inline-block;
-    vertical-align: top;
-    width: 600px;
-    text-align: center;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    padding: 25px;
-    background: rgb(255, 255, 255);
-    transition: all 0.2s linear;
-}
+
 .contacts-r{
     display: inline-block;
     vertical-align: top;
@@ -2422,18 +2412,7 @@ img.brain2a {
     background: transparent;
 }
 
-.form-contacts textarea{
-    margin-top: 15px;
-    width: 540px;
-    padding: 15px 5px;
-    outline: none;
-    height: 58px;
-    resize: none;
-    border: none;
-    border-bottom: 1px solid #333;
-    overflow: hidden;
-    background: transparent;
-}
+
 
 .form-contacts input:focus,
 .form-contacts textarea:focus{
@@ -2444,7 +2423,6 @@ img.brain2a {
     display: inline-block;
     position: relative;
     border: none;
-    width: 320px;
     padding: 0 50px;
     height: 50px;
     line-height: 50px;
@@ -6313,7 +6291,35 @@ hr{
  .footer-container {
     width: 100%;
  }
+ .contacts-l{
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 25px;
+    background: rgb(255, 255, 255);
+    transition: all 0.2s linear;
+}
+.contacts-btn {
+    width: 100%;
   }
+.modal-drop {
+/*    display: none;*/
+}
+.form-contacts textarea{
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px 5px;
+    outline: none;
+    height: 58px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #333;
+    overflow: hidden;
+    background: transparent;
+}
+}
 @media (min-width: 1024px) {
     .about-l {
     width: 599px;
@@ -6348,4 +6354,30 @@ hr{
  .footer-container {
     width: 90%;
  }
+ .contacts-l{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 25px;
+    background: rgb(255, 255, 255);
+    transition: all 0.2s linear;
+}
+.contacts-btn {
+    width: 320px;
+  }
+  .form-contacts textarea{
+    margin-top: 15px;
+    width: 540px;
+    padding: 15px 5px;
+    outline: none;
+    height: 58px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #333;
+    overflow: hidden;
+    background: transparent;
+}
 }

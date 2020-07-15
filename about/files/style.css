@@ -2374,7 +2374,6 @@ img.brain2a {
 .contacts-l{
     display: inline-block;
     vertical-align: top;
-    width: 600px;
     text-align: center;
     border: 1px solid #a37f70;
     border-radius: 5px;
@@ -6316,6 +6315,9 @@ hr{
       .footer-container {
     width: 100%;
  }
+  .contacts-l {
+    width: 100%;
+}
 
 }
 @media (min-width: 1024px) {
@@ -6340,4 +6342,7 @@ hr{
     .footer-container {
     width: 90%;
  }
+ .contacts-l {
+    width: 320px
+}
 }

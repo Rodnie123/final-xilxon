@@ -2436,19 +2436,7 @@ img.brain2a {
     background: transparent;
 }
 
-.form-contacts textarea{
-    margin-top: 15px;
-    width: 540px;
-    padding: 15px 5px;
-    outline: none;
-    height: 58px;
-    resize: none;
-    border: none;
-    border-bottom: 1px solid #333;
-    overflow: hidden;
-    background: transparent;
-    color: black;
-}
+
 
 .form-contacts input:focus,
 .form-contacts textarea:focus{
@@ -6268,9 +6256,52 @@ hr{
   .footer-container {
     width: 100%;
   }
+  .form-contacts textarea {
+    width: 100%;
+  }
+  .contacts-l{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #a37f70;
+    border-radius: 5px;
+    padding: 25px;
+    background: rgb(255, 255, 255);
+    transition: all 0.2s linear;
+}
+.contacts-btn {
+    width: 100%;
+  }
   }
   @media (min-width: 1024px) {
     .footer-container {
     width: 90%;
   }
-  }
+  .form-contacts textarea{
+    margin-top: 15px;
+    width: 540px;
+    padding: 15px 5px;
+    outline: none;
+    height: 58px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #333;
+    overflow: hidden;
+    background: transparent;
+    color: black;
+}
+.contacts-l{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    text-align: center;
+    border: 1px solid #a37f70;
+    border-radius: 5px;
+    padding: 25px;
+    background: rgb(255, 255, 255);
+    transition: all 0.2s linear;
+}
+.contacts-btn {
+    width: 320px;
+  }}
