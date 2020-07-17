@@ -821,6 +821,7 @@ img.brain2a {
 
 .header-1-info .info img{
     margin-right: 5px;
+    width: 17px;
 }
 .no-gutters {
     padding: 0;
@@ -866,14 +867,14 @@ img.brain2a {
 
 .header-buttons{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 76px;
     background: url("../img/header-btn-bg.png") center no-repeat;
 }
 .header-buttons .button{
     position: relative;
     display: inline-block;
     vertical-align: top;
-    width: 300px;
+
     height: 50px;
     line-height: 50px;
     border-radius: 25px;
@@ -2769,7 +2770,7 @@ img.brain2a {
     padding: 10px;
     text-align: center;
     background: #e1e1e126;
-	width: 100%;
+    width: 100%;
     /* box-shadow: unset; */
 }
 
@@ -2800,7 +2801,7 @@ img.brain2a {
 }
 .headchoose .selectric .button:before {
     /*content: "\e92f";*/
-	content: ''; 
+    content: ''; 
     font-family: 'icomoon';
     font-size: 12px;
     color: #959595;
@@ -2831,11 +2832,11 @@ img.brain2a {
 }
 
 .headchoose .selectric .button {
-	top: 6px;
+    top: 6px;
 }
    
 .headchoose .selectric .label {
-	line-height: 4;
+    line-height: 4;
 }
 
 .blockLeft {
@@ -2843,10 +2844,10 @@ img.brain2a {
 }
 
 .blockCard{
-	background-color: #fff;
-	padding: 10px;
-	box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.33);
-	border-radius: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.33);
+    border-radius: 20px;
 }
 
 .planTitle {
@@ -6330,9 +6331,9 @@ hr{
     }
     .contacts-btn {
         width: 320px;
-    }.
+    }
     .header-buttons .button {
-        width: 300px;
+     width: 300px;
     }
     .footer-container{ 
         width: 90%;
